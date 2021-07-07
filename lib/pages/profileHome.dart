@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app_section_2/icons.dart';
+import 'package:flutter_app_section_2/pages/profileInfo.dart';
 import 'package:flutter_app_section_2/widgets/textField.dart';
 
 class ProfileHome extends StatefulWidget {
@@ -110,7 +111,9 @@ class _ProfileHomeState extends State<ProfileHome> {
                     backgroundColor: Color(0xFF082B53),
                     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(0)),
                   ),
-                  onPressed: () { },
+                  onPressed: () { 
+                    Navigator.of(context).push(MaterialPageRoute(builder: (context) => ProfileInfo() ));
+                  },
                   child: Padding(
                     padding: const EdgeInsets.symmetric(
                       horizontal: 45.0,

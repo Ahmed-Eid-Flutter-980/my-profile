@@ -10,5 +10,15 @@ class IconManager {
   // method for create color to icon
   static Icon place(Color color) {
     return Icon(Icons.place_outlined, color: color,);
+  }
+
+  // method for create color to icon
+  static Icon pencleWithcolor(Color color) {
+    return Icon(Icons.border_color_rounded, color: color,);
+  }
+
+  // method for create color to icon
+  static IconLogoutWithColor(Color color) {
+    return Icon(Icons.logout, color: color,);
   } 
 }

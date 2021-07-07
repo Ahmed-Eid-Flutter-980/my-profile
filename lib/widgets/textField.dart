@@ -4,6 +4,7 @@ import 'package:flutter_app_section_2/icons.dart';
 class NewTextField {
   NewTextField._();
 
+  // ignore: slash_for_doc_comments
   /**
    * just text field eith input type
    */
@@ -33,6 +34,7 @@ class NewTextField {
     );
   } 
 
+  // ignore: slash_for_doc_comments
   /**
    * create textarea with maxline 
    * and input type
